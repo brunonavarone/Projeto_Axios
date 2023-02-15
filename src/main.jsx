@@ -9,7 +9,10 @@ import Home from './routes/Home'
 import Equipe from './routes/Equipe'
 import TRANSformacao from './routes/TRANSformacao'
 import Servicos from './routes/Servicos'
-import Agendamento from './routes/Agendamento'
+import CadastrarProduto from './routes/CadastrarProduto'
+import Produtos from './routes/Produtos'
+
+import Formulario from "./routes/Fomulario"
 
 import './index.css'
 
@@ -34,8 +37,16 @@ const router = createBrowserRouter([
         element: <Servicos />
       },
       {
-        path: "/agendamento",
-        element: <Agendamento />
+        path:"/produtos",
+        element: <Produtos />
+      },
+      {
+        path: "/cadastrarProdutos",
+        element: <CadastrarProduto />
+      },
+      {
+        path: "/formulario",
+        element: <Formulario />
       }
     ]
   }

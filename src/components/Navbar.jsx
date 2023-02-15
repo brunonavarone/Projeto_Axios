@@ -16,10 +16,13 @@ const Navbar = () => {
                 <Link to = {'/transformacao'}>TRANSformação</Link>
             </li>
             <li>
-                <Link to  = {'/servicos'}>Serviços e Profutos</Link>
+                <Link to  = {'/servicos'}>Serviços</Link>
             </li>
             <li>
-                <Link to = {'/agendamento'}>Agendamento</Link>
+                <Link to = {'/produtos'}>Produtos</Link>
+            </li>
+            <li>
+                <Link to = {'/cadastrarProdutos'}>Cadastrar Produtos</Link>
             </li>
             <li>
                 <Link to = {'/equipe'}>Equipe</Link>
