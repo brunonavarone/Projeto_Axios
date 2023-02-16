@@ -15,11 +15,11 @@ const ReviewForm = () => {
             <input type="text" name="number" id='celular' size="9" maxLength="9" placeholder='xxxxx-xxxx' required/>
         </div>
         <div className= "form-control">
-            <label htmlFor="sexo">Gênero: </label>
+            <label htmlFor="genero">Gênero: </label>
             <select name="assunto" id="opcoes">
-                <option disabled="dissabled" selected="selected">-- Selecione a opção</option>
+                <option className='option' disabled="dissabled" selected="selected">-- Selecione a opção</option>
                 <option>Mulher (Trans ou Cis)</option>
-                <option>Homer (Trans ou Cis)</option>
+                <option>Homem (Trans ou Cis)</option>
                 <option>Gênero Não-Binário</option>
             </select>
         </div>

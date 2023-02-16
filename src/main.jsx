@@ -12,7 +12,6 @@ import Servicos from './routes/Servicos'
 import CadastrarProduto from './routes/CadastrarProduto'
 import Produtos from './routes/Produtos'
 
-import Formulario from "./routes/Fomulario"
 
 import './index.css'
 
@@ -43,10 +42,6 @@ const router = createBrowserRouter([
       {
         path: "/cadastrarProdutos",
         element: <CadastrarProduto />
-      },
-      {
-        path: "/formulario",
-        element: <Formulario />
       }
     ]
   }

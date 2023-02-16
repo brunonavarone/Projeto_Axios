@@ -6,27 +6,27 @@
     color: rgb(165, 171, 171);
 }
 
-  p {
+p {
     color: #777;
     text-align: center;
     font-size: 25px;
-  }
-  
-  i {
+}
+
+i {
     color: #ffd700;
-  }
-  
-  body {
-    background-color: #000000;
+}
+
+body {
     background-image: url("https://img.freepik.com/vetores-gratis/planos-de-fundo-gradientes-pretos-com-molduras-douradas_23-2149150610.jpg?w=740&t=st=1676399618~exp=1676400218~hmac=d5a0a9892d639c6dff76d99107c31a8142d9ddd2a93bef07e46847a77bc76ff5");
     background-size:cover; 
     background-position:center; 
-    height: 100%; 
-    width: 100%;
-  }
+    background-repeat: no-repeat;
+    height: 95%; 
+    width: 95%;
+}
 
 .app {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* Cabeçalho */
@@ -42,11 +42,11 @@
 
 /* Forms */
 .form-container {
-    max-width: 500px;
+    max-width: 480px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 15px;
     background-color: #000000;
-    padding: 2rem;
+    padding: 0.5rem;
     box-shadow: #F8D800 0px 7px 20px 0px;
 }
 
@@ -62,22 +62,37 @@
 .form-control {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
-    margin-bottom: 1rem;
+    gap: 0.4rem;
+    margin-bottom: .5rem;
 }
 
 label{
     font-weight: bold;
-    color: whitesmoke;
+    color: whit     esmoke;
     font-size: .9rem;
 }
 
-input,
+input, 
+option,
 textarea {
-    padding: .6rem;
+    padding: .4rem;
     border: none;
     border-radius:  3px;
-    box-shadow: rgb(99, 99, 99, .2) 0px 2px 8px 0px;
+    box-shadow: rgba(151, 151, 151, 0.2) 0px 2px 8px 0px;
+    color: #000000;
+}
+
+select {
+    min-height: 30px;
+    color: #000000 ;
+}
+
+.checkbox {
+gap: .5rem;
+}
+
+.check_new_btn {
+    padding: 0px 10px 0px 0px;
 }
 
 textarea {
@@ -92,19 +107,19 @@ textarea {
 }
 
 .actions button {
-    font-size: .9rem;
-    padding: .5rem 1rem;
-    gap: .5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    gap: 0.6rem;
     align-items: center;
     border-radius: 3px;
-    background-color: #dfdfdd;
+    background-color: rgb(42, 43, 43);
     cursor: pointer;
     border: none;
-    transition: 3s;
+    transition: 0.3s;
 }
 
 .actions button:hover {
-    background-color: #cfcfcf;
+    background-color: #777;
 }
 
 
