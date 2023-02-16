@@ -58,11 +58,3 @@ form input, form textarea{
     background-color: black;
     color: white;
 }
-
-.container_Principal_CadastrarProdutos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}

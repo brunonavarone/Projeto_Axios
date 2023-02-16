@@ -1,0 +1,27 @@
+.team-main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.team-card-container{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.team-card{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.team-card img {
+    max-width: 200px;
+    border-radius: 5px;
+}

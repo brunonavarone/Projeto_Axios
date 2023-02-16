@@ -24,13 +24,7 @@ const Equipe = () => {
     return (
       <div className='team-main-container'>
         <h1>Equipe</h1>
-        <div className='team-card-container'>
-          {team.length === 0 ? (<p>Carregando...</p>) : (
-            team.map((team) => (
-              <div className='team-card' key={team.id}>
-                <h2>{team.nome}</h2>
-                <h2>{team.cargo}</h2>
-              </div>
+        
             )
             )
           )
