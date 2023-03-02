@@ -13,7 +13,11 @@ import { VscError } from "react-icons/vsc";
 
 
 const Produtos = () => {
+
+const [products, setProducts] = useState([])
+
   const [products, setProducts] = useState([])
+
   const getProducts = async() => {
     try {
       const response = await blogFetch.get('/Produtos');
@@ -23,10 +27,17 @@ const Produtos = () => {
     } catch (error) {
       console.log(error)
     }
+
+  } 
+
+  useEffect(() => {
+    getProducts()
+
   }
 
   useEffect(() => {
     getProducts();
+
   }, [])
 
   return (

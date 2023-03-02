@@ -5,6 +5,10 @@ import blogFetch from "../axios/config";
 import Tilt from 'react-vanilla-tilt'
 import {useState, useEffect} from 'react';
 
+import blogFetch from "../axios/config";
+
+import {useState, useEffect} from 'react';
+
 const Servicos = () => {
   const [services, setServices] = useState([])
   const getServices = async() => {
@@ -24,6 +28,12 @@ const Servicos = () => {
 
 
   return (
+    <div>
+    <h1>Serviços</h1>
+    {services.length === 0 ? (<p>Carregando...</p>) : (
+      services.map((services) => (
+        <div className="services-card" key={services.id}>
+
     <div className='servicos-container-principal'>
     <h1>Serviços</h1>
     <div className='container-cartoes-servicos'>
@@ -35,6 +45,8 @@ const Servicos = () => {
           <h4>Descrição: {services.descricao}</h4>
           <p>Preço: R${services.preco},00</p>
         </div>
+      ))
+    )}
         </Tilt>
       ))
     )}
