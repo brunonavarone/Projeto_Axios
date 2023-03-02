@@ -12,7 +12,6 @@ import Servicos from './routes/Servicos'
 import CadastrarProduto from './routes/CadastrarProduto'
 import Produtos from './routes/Produtos'
 
-
 import './index.css'
 
 const router = createBrowserRouter([
