@@ -29,8 +29,8 @@ const Servicos = () => {
     <div className='container-cartoes-servicos'>
     {services.length === 0 ? (<p>Carregando...</p>) : (
       services.map((services) => (
-        <Tilt>
-        <div className="cartoes-servicos" key={services.id}>
+        <Tilt key={services.id}>
+        <div className="cartoes-servicos">
           <h2>{services.tipo}</h2>
           <h4>Descrição: {services.descricao}</h4>
           <p>Preço: R${services.preco},00</p>

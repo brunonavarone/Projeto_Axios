@@ -30,8 +30,8 @@ const Equipe = () => {
         <div className='team-card-container'>
           {team.length === 0 ? (<p>Carregando...</p>) : (
             team.map((team) => (
-              <Tilt>
-              <div className='team-card' key={team.id}>
+              <Tilt key={team.id}>
+              <div className='team-card'>
                 <h2>{team.nome}</h2>
                 <img src={team.foto} />
                 <h2>{team.cargo}</h2>
