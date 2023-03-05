@@ -53,9 +53,9 @@ form input, form textarea{
     color: #777;
 }
 
+
 .cadastro_formulario{
-    border: solid 4px black;
+    border: solid 3px black;
     width: 80vw;
     height: 80vh;
-    margin: 30px;
 }
